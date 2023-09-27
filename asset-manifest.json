@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Landing/static/css/main.0fc1101d.css",
+    "main.js": "/Landing/static/js/main.25a870a3.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Landing/static/js/787.28cb0dcd.chunk.js",
+    "static/media/background.png": "/Landing/static/media/background.f2fb037091f1728c8b16.png",
+    "static/media/UserNFT 5.png": "/Landing/static/media/UserNFT 5.948567e2d4675502c99a.png",
+    "static/media/Presentation.png": "/Landing/static/media/Presentation.ede07f734bf57ed23ddd.png",
+    "static/media/second.png": "/Landing/static/media/second.cb380aa84cb9834808fe.png",
+    "static/media/rotate.png": "/Landing/static/media/rotate.66e1ec727a7fdd5226d3.png",
+    "static/media/UserNFT 2.png": "/Landing/static/media/UserNFT 2.a872ffab7c3161c51805.png",
+    "static/media/Surgeon.png": "/Landing/static/media/Surgeon.4e66bdd13967e92f9dd9.png",
+    "static/media/first.png": "/Landing/static/media/first.783d74b97d2dc8a710b9.png",
+    "static/media/static.png": "/Landing/static/media/static.25879ba29fb903e1a9f1.png",
+    "static/media/UserNFT 3.png": "/Landing/static/media/UserNFT 3.7c3f7f06e46ebb55d3a9.png",
+    "static/media/Cyber.png": "/Landing/static/media/Cyber.d862d9862917c393589e.png",
+    "static/media/UserNFT 4.png": "/Landing/static/media/UserNFT 4.2afee44fd390f231ab20.png",
+    "static/media/Charge.png": "/Landing/static/media/Charge.648fa810e075f56ac3b5.png",
+    "static/media/UserNFT 1.png": "/Landing/static/media/UserNFT 1.ebfc7247aa25418ccbf6.png",
+    "static/media/Circle.svg": "/Landing/static/media/Circle.a810f2f448eda0036f171d48e323bca9.svg",
+    "static/media/logo.svg": "/Landing/static/media/logo.5e674a4bbc8f9ecac34bdfb7d69aaa71.svg",
+    "static/media/Twitter.svg": "/Landing/static/media/Twitter.22d5bb746b09376fda3d249cffb517c2.svg",
+    "static/media/Linkedin.svg": "/Landing/static/media/Linkedin.536c5cb88c23870eaa326a4287b8321a.svg",
+    "static/media/Facebook.svg": "/Landing/static/media/Facebook.8fe23396ed50a44889d95d692bdc0aa2.svg",
+    "static/media/Telegram.svg": "/Landing/static/media/Telegram.8f9226ba36fb20f28b3ecd2029485364.svg",
+    "index.html": "/Landing/index.html",
+    "static/media/btc.svg": "/Landing/static/media/btc.5c3549ca503f66f0207ea164e118ff80.svg",
+    "static/media/clock.svg": "/Landing/static/media/clock.e7bad77299997cca8b3273c4baa1a91d.svg",
+    "main.0fc1101d.css.map": "/Landing/static/css/main.0fc1101d.css.map",
+    "main.25a870a3.js.map": "/Landing/static/js/main.25a870a3.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Landing/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fc1101d.css",
+    "static/js/main.25a870a3.js"
+  ]
+}
