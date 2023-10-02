@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Landing/static/css/main.0fc1101d.css",
-    "main.js": "/Landing/static/js/main.37d03d37.js",
+    "main.js": "/Landing/static/js/main.1b321a6a.js",
     "static/js/787.28cb0dcd.chunk.js": "/Landing/static/js/787.28cb0dcd.chunk.js",
     "static/media/background.png": "/Landing/static/media/background.f2fb037091f1728c8b16.png",
     "static/media/UserNFT 5.png": "/Landing/static/media/UserNFT 5.948567e2d4675502c99a.png",
@@ -27,11 +27,11 @@
     "static/media/btc.svg": "/Landing/static/media/btc.5c3549ca503f66f0207ea164e118ff80.svg",
     "static/media/clock.svg": "/Landing/static/media/clock.e7bad77299997cca8b3273c4baa1a91d.svg",
     "main.0fc1101d.css.map": "/Landing/static/css/main.0fc1101d.css.map",
-    "main.37d03d37.js.map": "/Landing/static/js/main.37d03d37.js.map",
+    "main.1b321a6a.js.map": "/Landing/static/js/main.1b321a6a.js.map",
     "787.28cb0dcd.chunk.js.map": "/Landing/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fc1101d.css",
-    "static/js/main.37d03d37.js"
+    "static/js/main.1b321a6a.js"
   ]
 }
