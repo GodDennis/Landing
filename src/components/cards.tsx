@@ -48,15 +48,20 @@ const StyledCards = styled.div`
   grid-area: f;
   display: flex;
   gap: 30px;
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 62px;
+  @media screen and (max-width: 480px) {
+    align-items: center;
     flex-direction: column;
     gap: 16px;
+    margin-top: 40px;
   }
 `;
 const StyledWrapper = styled.div`
-  margin-top: 62px;
   display: flex;
-  width: 410px;
+  max-width: 410px;
+  width: 100%;
   padding: 20px;
   flex-direction: column;
   justify-content: center;
@@ -66,23 +71,25 @@ const StyledWrapper = styled.div`
   border-top: 1px solid var(--Primary, #d3f85a);
   background: var(--background-background-4, #131e3a);
 
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  @media screen and (max-width: 480px) {
     flex-direction: column;
-    width: 343px;
+    max-width: 343px;
+    width: 100%;
     padding: 16px;
     margin-top: 0px;
     gap: 20px;
   }
 `;
 const ImageWrapper = styled.div`
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    width: 311px;
+  @media screen and (max-width: 480px) {
+    max-width: 311px;
+    width: 100%;
     height: 340px;
   }
 `;
 const StyledCardImg = styled.img`
   cursor: pointer;
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  @media screen and (max-width: 480px) {
     object-fit: cover;
     width: 100%;
     height: 340px;
@@ -114,7 +121,7 @@ const StyledCardName = styled.div`
   font-size: 24px;
   font-weight: 700;
   line-height: 120%;
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  @media screen and (max-width: 480px) {
     font-size: 20px;
   }
 `;

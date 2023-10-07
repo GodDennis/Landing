@@ -17,6 +17,7 @@ a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
 html,body{
 	/* height: 100%; */
+	/* overflow: hidden; */
 	width: 100%;
 	font-size: 100%;
 	line-height: 1;
@@ -24,6 +25,7 @@ html,body{
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
+	min-width: 375px;
 }
 input,button,textarea{font-family:inherit;}
 input::-ms-clear{display: none;}
@@ -37,7 +39,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 h1{
 	font-size: 64px;
-	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	@media screen and (max-width: 480px) {
 	font-size: 39px;
   }
 }
@@ -46,7 +48,7 @@ h2{
 	span{
 		color: #d3f85a;
 	}
-	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	@media screen and (max-width: 480px) {
 	font-size: 31px;
   }
 }
@@ -58,8 +60,12 @@ h1,h2{
 }
 section{
 	padding: 92px 0;
-	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-		padding: 40px 0;
+	@media screen and (min-width: 769px) and (max-width: 1350px) {
+		padding: 70px 0;
 	}
+	@media screen and (max-width: 768px) {
+    padding: 40px 0;
+  }
 }
+
 `;

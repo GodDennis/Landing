@@ -4,16 +4,16 @@ import Cyber from "./assets/Cyber.png";
 import Charge from "./assets/Charge.png";
 import Surgeon from "./assets/Surgeon.png";
 import Presentation from "./assets/Presentation.png";
-import Ellipse1 from "./assets/Ellipse 1.png";
-import Ellipse2 from "./assets/Ellipse 2.png";
-import Ellipse3 from "./assets/Ellipse 3.png";
-import Ellipse4 from "./assets/Ellipse 4.png";
-import Ellipse5 from "./assets/Ellipse 5.png";
-import UserNFT1 from "./assets/UserNFT 1.png";
-import UserNFT2 from "./assets/UserNFT 2.png";
-import UserNFT3 from "./assets/UserNFT 3.png";
-import UserNFT4 from "./assets/UserNFT 4.png";
-import UserNFT5 from "./assets/UserNFT 5.png";
+import Ellipse1 from "./assets/Ellipse1.png";
+import Ellipse2 from "./assets/Ellipse2.png";
+import Ellipse3 from "./assets/Ellipse3.png";
+import Ellipse4 from "./assets/Ellipse4.png";
+import Ellipse5 from "./assets/Ellipse5.png";
+import UserNFT1 from "./assets/UserNFT1.png";
+import UserNFT2 from "./assets/UserNFT2.png";
+import UserNFT3 from "./assets/UserNFT3.png";
+import UserNFT4 from "./assets/UserNFT4.png";
+import UserNFT5 from "./assets/UserNFT5.png";
 
 export const store = {
   Hero: {

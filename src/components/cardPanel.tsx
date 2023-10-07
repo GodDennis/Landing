@@ -39,10 +39,11 @@ const BtnContainer = styled.div`
 `;
 const StyledCard = styled.div`
   position: absolute;
-  top: 468px;
-  right: 0px;
+  top: 74%;
+  right: 0%;
   display: flex;
-  width: 304px;
+  max-width: 304px;
+  width: 100%;
   padding: 20px;
   flex-direction: column;
   align-items: center;
@@ -51,8 +52,9 @@ const StyledCard = styled.div`
   border-top: 1px solid var(--Primary, #d3f85a);
   background: var(--background-background-4, #131e3a);
   box-shadow: 0px 9px 50px 0px rgba(23, 36, 65, 0.04);
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    width: 224px;
+  @media screen and (max-width: 480px) {
+    max-width: 224px;
+    width: 100%;
     top: 283px;
     left: 119px;
     padding: 12px;
@@ -81,7 +83,7 @@ const Current = styled.span`
   color: var(--Primary, #d3f85a);
   font-weight: 400;
   line-height: 160%;
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  @media screen and (max-width: 480px) {
     font-size: 14px;
     text-align: left;
   }

@@ -25,7 +25,7 @@ export default Burger;
 const StyledBurger = styled.div`
   z-index: 10;
   display: none;
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
     gap: 5px;

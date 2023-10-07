@@ -31,10 +31,11 @@ const PresentationBtn = styled(StyledBtn)`
 
 const StyledMainConten = styled.div`
   text-align: left;
-  width: 544px;
-  padding-top: 30px;
+  max-width: 544px;
+  width: 100%;
   grid-area: a;
   padding-bottom: 72px;
+
   h1 {
     color: var(--white-white-stich, #fffffd);
     font-weight: 500;
@@ -48,7 +49,7 @@ const StyledMainConten = styled.div`
     color: var(--white-white-stich, #fffffd);
     line-height: 160%;
     margin-bottom: 40px;
-    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    @media screen and (max-width: 480px) {
       margin-bottom: 32px;
     }
   }
@@ -56,10 +57,13 @@ const StyledMainConten = styled.div`
     background-color: inherit;
     color: #fffffd;
   }
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  @media screen and (max-width: 1350px) {
+    padding-top: 80px;
+  }
+  @media screen and (max-width: 480px) {
     width: 100%;
     text-align: center;
-    padding-top: 0px;
+    padding-top: 50px;
     padding-bottom: 48px;
   }
 `;

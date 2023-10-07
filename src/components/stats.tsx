@@ -16,30 +16,33 @@ const Stats = (props: StatsPropsType) => {
 
 export default Stats;
 const StyledStats = styled.div`
-  grid: b;
+  max-width: 544px;
+  width: 100%;
+  grid-area: b;
   display: flex;
   font-family: Spectral;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
+  gap: 27px;
+  justify-content: space-between;
   line-height: 120%; /* 57.6px */
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  @media screen and (max-width: 480px) {
     font-size: 31px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 0px;
   }
   div {
-    margin-right: 24px;
-    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    @media screen and (max-width: 480px) {
       padding: 0 16px;
-      margin-right: 0px;
     }
   }
 
   div + div {
     border-left: 1px solid #d3f85a;
-    padding-left: 94px;
-    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-      padding-left: 30px;
+    padding-left: 15%;
+    @media screen and (max-width: 768px) {
+      padding-left: 12%;
     }
   }
 `;
