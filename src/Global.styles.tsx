@@ -16,6 +16,7 @@ export const GlobalStyles = createGlobalStyle`
 a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
 html,body{
+	position: relative;
 	height: 100%;
 	width: 100%;
 	font-size: 100%;
