@@ -16,9 +16,10 @@ export const GlobalStyles = createGlobalStyle`
 a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
 html,body{
-	position: relative;
 	height: 100%;
 	width: 100%;
+	touch-action: none;
+	-ms-touch-action: none;
 	font-size: 100%;
 	line-height: 1;
 	font-size: 14px;
