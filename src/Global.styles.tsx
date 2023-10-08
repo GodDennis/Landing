@@ -16,8 +16,9 @@ export const GlobalStyles = createGlobalStyle`
 a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
 html,body{
+	touch-action: none;
+-ms-touch-action: none;
 	/* height: 100%; */
-	/* overflow: hidden; */
 	width: 100%;
 	font-size: 100%;
 	line-height: 1;

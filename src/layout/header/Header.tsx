@@ -24,12 +24,16 @@ export const Header = (props: HeaderPropsType) => {
   const [active, setActive] = useState("0");
   const [toggle, setToglle] = useState<boolean>(false);
 
-  useEffect(() => {
+  function burgerScrollHandler() {
     toggle
       ? (document.body.style.overflowY = "hidden") &&
         (document.documentElement.style.overflowY = "hidden")
       : (document.body.style.overflowY = "visible") &&
         (document.documentElement.style.overflowY = "visible");
+  }
+
+  useEffect(() => {
+    burgerScrollHandler();
   }, [toggle]);
   const clickHandler = (id: string) => {
     setActive(id);
