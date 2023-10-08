@@ -25,11 +25,11 @@ export const Header = (props: HeaderPropsType) => {
   const [toggle, setToglle] = useState<boolean>(false);
 
   function burgerScrollHandler() {
+    const body = document.body.style;
+    const html = document.documentElement.style;
     toggle
-      ? (document.body.style.overflowY = "hidden") &&
-        (document.documentElement.style.overflowY = "hidden")
-      : (document.body.style.overflowY = "visible") &&
-        (document.documentElement.style.overflowY = "visible");
+      ? (body.overflowY = "hidden") && (body.position = "fixed")
+      : (body.overflowY = "visible") && html.removeProperty("position");
   }
 
   useEffect(() => {
