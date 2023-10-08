@@ -14,7 +14,9 @@ const Cards = (props: CardsPropsType) => {
     return (
       <StyledWrapper>
         <ImageWrapper>
-          <StyledCardImg src={el.img} alt="card NFT" />
+          <a href="#">
+            <StyledCardImg src={el.img} alt="card NFT" />
+          </a>
         </ImageWrapper>
         <StyledCardPanel>
           <StyledCardInfo>
@@ -81,6 +83,9 @@ const StyledWrapper = styled.div`
   }
 `;
 const ImageWrapper = styled.div`
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: #000;
   @media screen and (max-width: 480px) {
     max-width: 311px;
     width: 100%;
@@ -88,7 +93,11 @@ const ImageWrapper = styled.div`
   }
 `;
 const StyledCardImg = styled.img`
+  object-fit: cover;
   cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+  }
   @media screen and (max-width: 480px) {
     object-fit: cover;
     width: 100%;
