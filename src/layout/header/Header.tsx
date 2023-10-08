@@ -28,13 +28,14 @@ export const Header = (props: HeaderPropsType) => {
     const body = document.body.style;
     const html = document.documentElement.style;
     toggle
-      ? (body.overflow = "hidden") && (body.position = "fixed")
-      : (body.overflow = "visible") && html.removeProperty("position");
+      ? (body.overflow = "hidden") && (html.overflow = "hidden")
+      : (body.overflow = "visible") && (html.overflow = "visible");
   }
 
   useEffect(() => {
     burgerScrollHandler();
   }, [toggle]);
+
   const clickHandler = (id: string) => {
     setActive(id);
   };
@@ -131,8 +132,8 @@ const StyledNav = styled.nav<NavPropsType>`
                 transition: margin 1s ease-out;
                 position:fixed;
                 flex-direction: column;
-                background-color:#2d2e2f;
-                opacity:0.97;
+                background-color:#282929;
+                opacity:0.98;
                 width:100%;
                 height:100vh;
                 top:0px;
@@ -155,8 +156,8 @@ const StyledNav = styled.nav<NavPropsType>`
                 justify-content: unset;
                 gap:24px;
                 flex-direction: column;
-                background-color:#2d2e2f;
-                opacity:0.97;
+                background-color:#282929;
+                opacity:0.98;
                 width:100%;
                 height:100vh;
                 left:0px;
