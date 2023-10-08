@@ -28,8 +28,8 @@ export const Header = (props: HeaderPropsType) => {
     const body = document.body.style;
     const html = document.documentElement.style;
     toggle
-      ? (body.overflowY = "hidden") && (body.position = "fixed")
-      : (body.overflowY = "visible") && html.removeProperty("position");
+      ? (body.overflow = "hidden") && (body.position = "fixed")
+      : (body.overflow = "visible") && html.removeProperty("position");
   }
 
   useEffect(() => {
