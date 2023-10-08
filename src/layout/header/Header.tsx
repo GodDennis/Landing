@@ -26,8 +26,10 @@ export const Header = (props: HeaderPropsType) => {
 
   useEffect(() => {
     toggle
-      ? (document.body.style.overflowY = "hidden")
-      : (document.body.style.overflowY = "visible");
+      ? (document.body.style.overflowY = "hidden") &&
+        (document.documentElement.style.overflowY = "hidden")
+      : (document.body.style.overflowY = "visible") &&
+        (document.documentElement.style.overflowY = "visible");
   }, [toggle]);
   const clickHandler = (id: string) => {
     setActive(id);
